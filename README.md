@@ -51,4 +51,4 @@ $paymentGateway->createCharge(
 );
 ```
 
-see https://gibhub.com/augwa/payment-gateway/example for more code examples
+see https://github.com/augwa/payment-gateway/example for more code examples
