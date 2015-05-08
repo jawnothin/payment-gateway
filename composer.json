@@ -1,0 +1,5 @@
+{
+    "require": {
+        "aura/autoload": "~2.0"
+    }
+}
