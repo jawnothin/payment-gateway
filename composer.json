@@ -1,6 +1,7 @@
 {
     "name": "augwa/payment-gateway",
     "description": "An easy to use class for integrating with one or more payment gateways",
+    "keywords": ["payment gateway","credit card", "chase","paymentech","paymenttech","beanstream","moneris","stripe","globalpayments","mercury"],
     "require": {
         "php": ">=5.4.0"
     },
