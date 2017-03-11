@@ -25,7 +25,6 @@ abstract class SoapApi extends XmlApi
     protected function soapExecute($method, $data, $responseNode)
     {
         $xmlResponse = $this->wsClient->$method($data)->$responseNode;
-        var_dump($xmlResponse); exit;
         $xmlResponse = $this->array_flat(json_decode(json_encode((array) simplexml_load_string($xmlResponse)), true), $arr = []);
 
         $this->setLastError(null);
